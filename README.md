@@ -4,7 +4,7 @@ A front-page collage summing up the world's news of Friday 13 November 2026
 in one image (1024x1024), built for the make.fun competition
 `news-image-01` ("Sum up 13 November's world news in one image").
 
-## The four stories
+## The six stories
 
 1. **Europe joins Ukraine peace talks** — Europe joins the next round of
    Ukraine peace talks; Putin met US envoys Witkoff and Kushner in Moscow
@@ -22,13 +22,18 @@ in one image (1024x1024), built for the make.fun competition
    explosions in the Strait of Hormuz; Iran says an LNG tanker struck a
    naval mine; Israel's cabinet ordered preparations for a possible strike
    on Iran.
+5. **Strike hits Nasser hospital** — An Israeli strike on Nasser hospital
+   in Khan Younis killed 6 people, including a surgeon.
+6. **Storm Charles hits Portugal** — Storm Charles hit Portugal, an Atlantic
+   storm battering the coast.
 
 ## How it was made
 
-Four photographic panels were generated separately (one per story, no text
-in the generated images), then composited with PIL into a 2x2 grid under a
-header band. All labels were drawn with PIL in DejaVu Sans Bold, never by
-the image generator, so the text stays crisp and legible.
+Six photographic panels were generated separately (one per story, no text
+in the generated images), then composited with PIL into a 3x2 grid under a
+header band. Each panel carries a main label and one short factual
+sub-label, all drawn with PIL in DejaVu Sans, never by the image
+generator, so the text stays crisp and legible.
 
 ## Run it
 

@@ -4,6 +4,9 @@
 The entry image is baked at build time (see entry.png) and this program
 simply copies it to the required output path, so the run is fully
 deterministic: the same bytes come out every time.
+
+v2: six-story front-page collage (3x2 grid) — Ukraine talks, Nvidia,
+Microsoft outage, Hormuz tankers, Nasser hospital strike, Storm Charles.
 """
 
 import os
